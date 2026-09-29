@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../icons/fundo.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  color: white;
+  padding: 30px;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 28px;
+  font-weight: normal;
+  margin-bottom: 60px;
+}
+
+.conteudo {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  max-width: 780px;
+}
+
+.caixa {
+  background-color: #b30000;
+  border-radius: 30px;
+  padding: 34px;
+  font-size: 14px;
+  line-height: 1.6;
+  flex: 1;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  text-decoration: none;
+  margin-top: 50px;
+  width: fit-content;
+}
+
+.home i {
+  font-size: 46px;
+}
+
+.home p {
+  font-size: 23px;
+}
+
+.home:hover {
+  opacity: 0.7;
+}

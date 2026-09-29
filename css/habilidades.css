@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../icons/fundo.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  color: white;
+  padding: 30px;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 28px;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+.conteudo {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 880px;
+}
+
+.caixa-icones {
+  background-color: #b30000;
+  border-radius: 30px;
+  padding: 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  min-width: 420px;
+}
+
+.linha {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.caixa-icones img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.caixa-texto {
+  background-color: #b30000;
+  border-radius: 40px;
+  padding: 30px;
+  font-size: 13px;
+  line-height: 1.6;
+  max-width: 470px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  text-decoration: none;
+  margin-top: 100px;
+  width: fit-content;
+}
+
+.home i {
+  font-size: 46px;
+}
+
+.home p {
+  font-size: 23px;
+}
+
+.home:hover {
+  opacity: 0.7;
+}
